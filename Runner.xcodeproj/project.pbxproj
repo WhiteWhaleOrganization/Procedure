@@ -1,0 +1,646 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		012CF2E42AB2B44D0098BAE3 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 012CF2E32AB2B44D0098BAE3 /* AppDelegate.m */; };
+		012CF2E72AB2B44D0098BAE3 /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 012CF2E62AB2B44D0098BAE3 /* SceneDelegate.m */; };
+		012CF2EA2AB2B44D0098BAE3 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 012CF2E92AB2B44D0098BAE3 /* ViewController.m */; };
+		012CF2ED2AB2B44D0098BAE3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 012CF2EB2AB2B44D0098BAE3 /* Main.storyboard */; };
+		012CF2EF2AB2B44F0098BAE3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 012CF2EE2AB2B44F0098BAE3 /* Assets.xcassets */; };
+		012CF2F22AB2B44F0098BAE3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 012CF2F02AB2B44F0098BAE3 /* LaunchScreen.storyboard */; };
+		012CF2F52AB2B44F0098BAE3 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 012CF2F42AB2B44F0098BAE3 /* main.m */; };
+		01F92D452AC4164C0056C17A /* SothastrnWilcoZonView.m in Sources */ = {isa = PBXBuildFile; fileRef = 01F92D042AC4164C0056C17A /* SothastrnWilcoZonView.m */; };
+		01F92D462AC4164C0056C17A /* BasqAgronomistFecalCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 01F92D052AC4164C0056C17A /* BasqAgronomistFecalCell.m */; };
+		01F92D472AC4164C0056C17A /* BasqConvincFledglView.m in Sources */ = {isa = PBXBuildFile; fileRef = 01F92D072AC4164C0056C17A /* BasqConvincFledglView.m */; };
+		01F92D482AC4164C0056C17A /* NdrdonHypoxiaGhagraCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 01F92D082AC4164C0056C17A /* NdrdonHypoxiaGhagraCell.m */; };
+		01F92D492AC4164C0056C17A /* NlavndSpyglassYearnCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 01F92D0A2AC4164C0056C17A /* NlavndSpyglassYearnCell.m */; };
+		01F92D4A2AC4164C0056C17A /* BlondExtantInwardly.m in Sources */ = {isa = PBXBuildFile; fileRef = 01F92D112AC4164C0056C17A /* BlondExtantInwardly.m */; };
+		01F92D4B2AC4164C0056C17A /* FryHideawayHawkerCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 01F92D122AC4164C0056C17A /* FryHideawayHawkerCell.m */; };
+		01F92D4C2AC4164C0056C17A /* GodhadScathQuarterView.m in Sources */ = {isa = PBXBuildFile; fileRef = 01F92D132AC4164C0056C17A /* GodhadScathQuarterView.m */; };
+		01F92D4D2AC4164C0056C17A /* NionYessirSeptic.m in Sources */ = {isa = PBXBuildFile; fileRef = 01F92D152AC4164C0056C17A /* NionYessirSeptic.m */; };
+		01F92D4E2AC4164C0056C17A /* PrognitorHardwork.m in Sources */ = {isa = PBXBuildFile; fileRef = 01F92D182AC4164C0056C17A /* PrognitorHardwork.m */; };
+		01F92D4F2AC4164C0056C17A /* MckHolmiumPulley.m in Sources */ = {isa = PBXBuildFile; fileRef = 01F92D192AC4164C0056C17A /* MckHolmiumPulley.m */; };
+		01F92D502AC4164C0056C17A /* FryWholenessView.m in Sources */ = {isa = PBXBuildFile; fileRef = 01F92D1A2AC4164C0056C17A /* FryWholenessView.m */; };
+		01F92D512AC4164C0056C17A /* GodhadHolmiumElanView.m in Sources */ = {isa = PBXBuildFile; fileRef = 01F92D1D2AC4164C0056C17A /* GodhadHolmiumElanView.m */; };
+		01F92D522AC4164C0056C17A /* VrIllywhackerSniffleCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 01F92D1E2AC4164C0056C17A /* VrIllywhackerSniffleCell.m */; };
+		01F92D532AC4164C0056C17A /* VpHypoxiaReprisalCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 01F92D202AC4164C0056C17A /* VpHypoxiaReprisalCell.m */; };
+		01F92D542AC4164C0056C17A /* MckDefyFuselageCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 01F92D222AC4164C0056C17A /* MckDefyFuselageCell.m */; };
+		01F92D552AC4164C0056C17A /* FryAsciiPluckCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 01F92D252AC4164C0056C17A /* FryAsciiPluckCell.m */; };
+		01F92D562AC4164C0056C17A /* VpSteamedSnatchCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 01F92D282AC4164C0056C17A /* VpSteamedSnatchCell.m */; };
+		01F92D572AC4164C0056C17A /* LibyanDeftDepose.m in Sources */ = {isa = PBXBuildFile; fileRef = 01F92D2B2AC4164C0056C17A /* LibyanDeftDepose.m */; };
+		01F92D582AC4164C0056C17A /* LibyanWholeness.m in Sources */ = {isa = PBXBuildFile; fileRef = 01F92D2C2AC4164C0056C17A /* LibyanWholeness.m */; };
+		01F92D592AC4164C0056C17A /* VrVasodilationCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 01F92D2D2AC4164C0056C17A /* VrVasodilationCell.m */; };
+		01F92D5A2AC4164C0056C17A /* AirflowHideawayDustyView.m in Sources */ = {isa = PBXBuildFile; fileRef = 01F92D2E2AC4164C0056C17A /* AirflowHideawayDustyView.m */; };
+		01F92D5B2AC4164C0056C17A /* TrivialityZonkedDuesView.m in Sources */ = {isa = PBXBuildFile; fileRef = 01F92D2F2AC4164C0056C17A /* TrivialityZonkedDuesView.m */; };
+		01F92D5C2AC4164C0056C17A /* FryRationalityView.m in Sources */ = {isa = PBXBuildFile; fileRef = 01F92D302AC4164C0056C17A /* FryRationalityView.m */; };
+		01F92D5D2AC4164C0056C17A /* MckPretenceHawkerCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 01F92D312AC4164C0056C17A /* MckPretenceHawkerCell.m */; };
+		01F92D5E2AC4164C0056C17A /* FreForthcomCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 01F92D342AC4164C0056C17A /* FreForthcomCell.m */; };
+		01F92D5F2AC4164C0056C17A /* FryPretenceGhagra.m in Sources */ = {isa = PBXBuildFile; fileRef = 01F92D352AC4164C0056C17A /* FryPretenceGhagra.m */; };
+		01F92D602AC4164C0056C17A /* GophrLegalisticDuetView.m in Sources */ = {isa = PBXBuildFile; fileRef = 01F92D372AC4164C0056C17A /* GophrLegalisticDuetView.m */; };
+		01F92D612AC4164C0056C17A /* LayttHouseman.m in Sources */ = {isa = PBXBuildFile; fileRef = 01F92D3B2AC4164C0056C17A /* LayttHouseman.m */; };
+		01F92D622AC4164C0056C17A /* MothballWilco.m in Sources */ = {isa = PBXBuildFile; fileRef = 01F92D3D2AC4164C0056C17A /* MothballWilco.m */; };
+		01F92D632AC4164C0056C17A /* NlavndFormerForthcomCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 01F92D3F2AC4164C0056C17A /* NlavndFormerForthcomCell.m */; };
+		01F92D642AC4164C0056C17A /* FreAllowanceThunderyView.m in Sources */ = {isa = PBXBuildFile; fileRef = 01F92D422AC4164C0056C17A /* FreAllowanceThunderyView.m */; };
+		01F92D652AC4164C0056C17A /* TrivialityFixView.m in Sources */ = {isa = PBXBuildFile; fileRef = 01F92D442AC4164C0056C17A /* TrivialityFixView.m */; };
+		B533B23012020C1FDCA8BA50 /* Pods_Runner.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C63EB3FE054FE83593AF7573 /* Pods_Runner.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		012CF2DF2AB2B44D0098BAE3 /* Runner.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Runner.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		012CF2E22AB2B44D0098BAE3 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		012CF2E32AB2B44D0098BAE3 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		012CF2E52AB2B44D0098BAE3 /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
+		012CF2E62AB2B44D0098BAE3 /* SceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
+		012CF2E82AB2B44D0098BAE3 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		012CF2E92AB2B44D0098BAE3 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		012CF2EC2AB2B44D0098BAE3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		012CF2EE2AB2B44F0098BAE3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		012CF2F12AB2B44F0098BAE3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		012CF2F32AB2B44F0098BAE3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		012CF2F42AB2B44F0098BAE3 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		01F92BBA2AC408C40056C17A /* PrefixHeader.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = SOURCE_ROOT; };
+		01F92D032AC4164C0056C17A /* LibyanDeftDepose.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LibyanDeftDepose.h; sourceTree = "<group>"; };
+		01F92D042AC4164C0056C17A /* SothastrnWilcoZonView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SothastrnWilcoZonView.m; sourceTree = "<group>"; };
+		01F92D052AC4164C0056C17A /* BasqAgronomistFecalCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BasqAgronomistFecalCell.m; sourceTree = "<group>"; };
+		01F92D062AC4164C0056C17A /* VpSteamedSnatchCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VpSteamedSnatchCell.h; sourceTree = "<group>"; };
+		01F92D072AC4164C0056C17A /* BasqConvincFledglView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BasqConvincFledglView.m; sourceTree = "<group>"; };
+		01F92D082AC4164C0056C17A /* NdrdonHypoxiaGhagraCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NdrdonHypoxiaGhagraCell.m; sourceTree = "<group>"; };
+		01F92D092AC4164C0056C17A /* FryAsciiPluckCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FryAsciiPluckCell.h; sourceTree = "<group>"; };
+		01F92D0A2AC4164C0056C17A /* NlavndSpyglassYearnCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NlavndSpyglassYearnCell.m; sourceTree = "<group>"; };
+		01F92D0B2AC4164C0056C17A /* MckPretenceHawkerCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MckPretenceHawkerCell.h; sourceTree = "<group>"; };
+		01F92D0C2AC4164C0056C17A /* FryRationalityView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FryRationalityView.h; sourceTree = "<group>"; };
+		01F92D0D2AC4164C0056C17A /* TrivialityZonkedDuesView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TrivialityZonkedDuesView.h; sourceTree = "<group>"; };
+		01F92D0E2AC4164C0056C17A /* AirflowHideawayDustyView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AirflowHideawayDustyView.h; sourceTree = "<group>"; };
+		01F92D0F2AC4164C0056C17A /* VrVasodilationCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VrVasodilationCell.h; sourceTree = "<group>"; };
+		01F92D102AC4164C0056C17A /* LibyanWholeness.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LibyanWholeness.h; sourceTree = "<group>"; };
+		01F92D112AC4164C0056C17A /* BlondExtantInwardly.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BlondExtantInwardly.m; sourceTree = "<group>"; };
+		01F92D122AC4164C0056C17A /* FryHideawayHawkerCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FryHideawayHawkerCell.m; sourceTree = "<group>"; };
+		01F92D132AC4164C0056C17A /* GodhadScathQuarterView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GodhadScathQuarterView.m; sourceTree = "<group>"; };
+		01F92D142AC4164C0056C17A /* GophrLegalisticDuetView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GophrLegalisticDuetView.h; sourceTree = "<group>"; };
+		01F92D152AC4164C0056C17A /* NionYessirSeptic.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NionYessirSeptic.m; sourceTree = "<group>"; };
+		01F92D162AC4164C0056C17A /* FryPretenceGhagra.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FryPretenceGhagra.h; sourceTree = "<group>"; };
+		01F92D172AC4164C0056C17A /* FreForthcomCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FreForthcomCell.h; sourceTree = "<group>"; };
+		01F92D182AC4164C0056C17A /* PrognitorHardwork.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PrognitorHardwork.m; sourceTree = "<group>"; };
+		01F92D192AC4164C0056C17A /* MckHolmiumPulley.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MckHolmiumPulley.m; sourceTree = "<group>"; };
+		01F92D1A2AC4164C0056C17A /* FryWholenessView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FryWholenessView.m; sourceTree = "<group>"; };
+		01F92D1B2AC4164C0056C17A /* TrivialityFixView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TrivialityFixView.h; sourceTree = "<group>"; };
+		01F92D1C2AC4164C0056C17A /* NlavndFormerForthcomCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NlavndFormerForthcomCell.h; sourceTree = "<group>"; };
+		01F92D1D2AC4164C0056C17A /* GodhadHolmiumElanView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GodhadHolmiumElanView.m; sourceTree = "<group>"; };
+		01F92D1E2AC4164C0056C17A /* VrIllywhackerSniffleCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VrIllywhackerSniffleCell.m; sourceTree = "<group>"; };
+		01F92D1F2AC4164C0056C17A /* FreAllowanceThunderyView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FreAllowanceThunderyView.h; sourceTree = "<group>"; };
+		01F92D202AC4164C0056C17A /* VpHypoxiaReprisalCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VpHypoxiaReprisalCell.m; sourceTree = "<group>"; };
+		01F92D212AC4164C0056C17A /* MothballWilco.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MothballWilco.h; sourceTree = "<group>"; };
+		01F92D222AC4164C0056C17A /* MckDefyFuselageCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MckDefyFuselageCell.m; sourceTree = "<group>"; };
+		01F92D232AC4164C0056C17A /* LayttHouseman.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LayttHouseman.h; sourceTree = "<group>"; };
+		01F92D242AC4164C0056C17A /* NlavndSpyglassYearnCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NlavndSpyglassYearnCell.h; sourceTree = "<group>"; };
+		01F92D252AC4164C0056C17A /* FryAsciiPluckCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FryAsciiPluckCell.m; sourceTree = "<group>"; };
+		01F92D262AC4164C0056C17A /* NdrdonHypoxiaGhagraCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NdrdonHypoxiaGhagraCell.h; sourceTree = "<group>"; };
+		01F92D272AC4164C0056C17A /* BasqConvincFledglView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BasqConvincFledglView.h; sourceTree = "<group>"; };
+		01F92D282AC4164C0056C17A /* VpSteamedSnatchCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VpSteamedSnatchCell.m; sourceTree = "<group>"; };
+		01F92D292AC4164C0056C17A /* BasqAgronomistFecalCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BasqAgronomistFecalCell.h; sourceTree = "<group>"; };
+		01F92D2A2AC4164C0056C17A /* SothastrnWilcoZonView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SothastrnWilcoZonView.h; sourceTree = "<group>"; };
+		01F92D2B2AC4164C0056C17A /* LibyanDeftDepose.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LibyanDeftDepose.m; sourceTree = "<group>"; };
+		01F92D2C2AC4164C0056C17A /* LibyanWholeness.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LibyanWholeness.m; sourceTree = "<group>"; };
+		01F92D2D2AC4164C0056C17A /* VrVasodilationCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VrVasodilationCell.m; sourceTree = "<group>"; };
+		01F92D2E2AC4164C0056C17A /* AirflowHideawayDustyView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AirflowHideawayDustyView.m; sourceTree = "<group>"; };
+		01F92D2F2AC4164C0056C17A /* TrivialityZonkedDuesView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TrivialityZonkedDuesView.m; sourceTree = "<group>"; };
+		01F92D302AC4164C0056C17A /* FryRationalityView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FryRationalityView.m; sourceTree = "<group>"; };
+		01F92D312AC4164C0056C17A /* MckPretenceHawkerCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MckPretenceHawkerCell.m; sourceTree = "<group>"; };
+		01F92D322AC4164C0056C17A /* MckHolmiumPulley.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MckHolmiumPulley.h; sourceTree = "<group>"; };
+		01F92D332AC4164C0056C17A /* PrognitorHardwork.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PrognitorHardwork.h; sourceTree = "<group>"; };
+		01F92D342AC4164C0056C17A /* FreForthcomCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FreForthcomCell.m; sourceTree = "<group>"; };
+		01F92D352AC4164C0056C17A /* FryPretenceGhagra.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FryPretenceGhagra.m; sourceTree = "<group>"; };
+		01F92D362AC4164C0056C17A /* NionYessirSeptic.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NionYessirSeptic.h; sourceTree = "<group>"; };
+		01F92D372AC4164C0056C17A /* GophrLegalisticDuetView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GophrLegalisticDuetView.m; sourceTree = "<group>"; };
+		01F92D382AC4164C0056C17A /* GodhadScathQuarterView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GodhadScathQuarterView.h; sourceTree = "<group>"; };
+		01F92D392AC4164C0056C17A /* FryHideawayHawkerCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FryHideawayHawkerCell.h; sourceTree = "<group>"; };
+		01F92D3A2AC4164C0056C17A /* BlondExtantInwardly.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BlondExtantInwardly.h; sourceTree = "<group>"; };
+		01F92D3B2AC4164C0056C17A /* LayttHouseman.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LayttHouseman.m; sourceTree = "<group>"; };
+		01F92D3C2AC4164C0056C17A /* MckDefyFuselageCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MckDefyFuselageCell.h; sourceTree = "<group>"; };
+		01F92D3D2AC4164C0056C17A /* MothballWilco.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MothballWilco.m; sourceTree = "<group>"; };
+		01F92D3E2AC4164C0056C17A /* VpHypoxiaReprisalCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VpHypoxiaReprisalCell.h; sourceTree = "<group>"; };
+		01F92D3F2AC4164C0056C17A /* NlavndFormerForthcomCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NlavndFormerForthcomCell.m; sourceTree = "<group>"; };
+		01F92D402AC4164C0056C17A /* GodhadHolmiumElanView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GodhadHolmiumElanView.h; sourceTree = "<group>"; };
+		01F92D412AC4164C0056C17A /* VrIllywhackerSniffleCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VrIllywhackerSniffleCell.h; sourceTree = "<group>"; };
+		01F92D422AC4164C0056C17A /* FreAllowanceThunderyView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FreAllowanceThunderyView.m; sourceTree = "<group>"; };
+		01F92D432AC4164C0056C17A /* FryWholenessView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FryWholenessView.h; sourceTree = "<group>"; };
+		01F92D442AC4164C0056C17A /* TrivialityFixView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TrivialityFixView.m; sourceTree = "<group>"; };
+		4B91A4717907768F645CF1D6 /* Pods-Runner.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Runner.debug.xcconfig"; path = "Target Support Files/Pods-Runner/Pods-Runner.debug.xcconfig"; sourceTree = "<group>"; };
+		C63EB3FE054FE83593AF7573 /* Pods_Runner.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Runner.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E3B35632E4E07D9C40C68999 /* Pods-Runner.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Runner.release.xcconfig"; path = "Target Support Files/Pods-Runner/Pods-Runner.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		012CF2DC2AB2B44D0098BAE3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B533B23012020C1FDCA8BA50 /* Pods_Runner.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		012CF2D62AB2B44D0098BAE3 = {
+			isa = PBXGroup;
+			children = (
+				012CF2E12AB2B44D0098BAE3 /* Runner */,
+				012CF2E02AB2B44D0098BAE3 /* Products */,
+				0D707DEB12BE457CDEEDA972 /* Pods */,
+				1F78EFD616C1FFD1C065CF86 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		012CF2E02AB2B44D0098BAE3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				012CF2DF2AB2B44D0098BAE3 /* Runner.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		012CF2E12AB2B44D0098BAE3 /* Runner */ = {
+			isa = PBXGroup;
+			children = (
+				01F92D022AC4164C0056C17A /* Classes */,
+				01F92BBA2AC408C40056C17A /* PrefixHeader.pch */,
+				012CF2E22AB2B44D0098BAE3 /* AppDelegate.h */,
+				012CF2E32AB2B44D0098BAE3 /* AppDelegate.m */,
+				012CF2E52AB2B44D0098BAE3 /* SceneDelegate.h */,
+				012CF2E62AB2B44D0098BAE3 /* SceneDelegate.m */,
+				012CF2E82AB2B44D0098BAE3 /* ViewController.h */,
+				012CF2E92AB2B44D0098BAE3 /* ViewController.m */,
+				012CF2EB2AB2B44D0098BAE3 /* Main.storyboard */,
+				012CF2EE2AB2B44F0098BAE3 /* Assets.xcassets */,
+				012CF2F02AB2B44F0098BAE3 /* LaunchScreen.storyboard */,
+				012CF2F32AB2B44F0098BAE3 /* Info.plist */,
+				012CF2F42AB2B44F0098BAE3 /* main.m */,
+			);
+			path = Runner;
+			sourceTree = "<group>";
+		};
+		01F92D022AC4164C0056C17A /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				01F92D0E2AC4164C0056C17A /* AirflowHideawayDustyView.h */,
+				01F92D2E2AC4164C0056C17A /* AirflowHideawayDustyView.m */,
+				01F92D292AC4164C0056C17A /* BasqAgronomistFecalCell.h */,
+				01F92D052AC4164C0056C17A /* BasqAgronomistFecalCell.m */,
+				01F92D272AC4164C0056C17A /* BasqConvincFledglView.h */,
+				01F92D072AC4164C0056C17A /* BasqConvincFledglView.m */,
+				01F92D3A2AC4164C0056C17A /* BlondExtantInwardly.h */,
+				01F92D112AC4164C0056C17A /* BlondExtantInwardly.m */,
+				01F92D1F2AC4164C0056C17A /* FreAllowanceThunderyView.h */,
+				01F92D422AC4164C0056C17A /* FreAllowanceThunderyView.m */,
+				01F92D172AC4164C0056C17A /* FreForthcomCell.h */,
+				01F92D342AC4164C0056C17A /* FreForthcomCell.m */,
+				01F92D092AC4164C0056C17A /* FryAsciiPluckCell.h */,
+				01F92D252AC4164C0056C17A /* FryAsciiPluckCell.m */,
+				01F92D392AC4164C0056C17A /* FryHideawayHawkerCell.h */,
+				01F92D122AC4164C0056C17A /* FryHideawayHawkerCell.m */,
+				01F92D162AC4164C0056C17A /* FryPretenceGhagra.h */,
+				01F92D352AC4164C0056C17A /* FryPretenceGhagra.m */,
+				01F92D0C2AC4164C0056C17A /* FryRationalityView.h */,
+				01F92D302AC4164C0056C17A /* FryRationalityView.m */,
+				01F92D432AC4164C0056C17A /* FryWholenessView.h */,
+				01F92D1A2AC4164C0056C17A /* FryWholenessView.m */,
+				01F92D402AC4164C0056C17A /* GodhadHolmiumElanView.h */,
+				01F92D1D2AC4164C0056C17A /* GodhadHolmiumElanView.m */,
+				01F92D382AC4164C0056C17A /* GodhadScathQuarterView.h */,
+				01F92D132AC4164C0056C17A /* GodhadScathQuarterView.m */,
+				01F92D142AC4164C0056C17A /* GophrLegalisticDuetView.h */,
+				01F92D372AC4164C0056C17A /* GophrLegalisticDuetView.m */,
+				01F92D232AC4164C0056C17A /* LayttHouseman.h */,
+				01F92D3B2AC4164C0056C17A /* LayttHouseman.m */,
+				01F92D032AC4164C0056C17A /* LibyanDeftDepose.h */,
+				01F92D2B2AC4164C0056C17A /* LibyanDeftDepose.m */,
+				01F92D102AC4164C0056C17A /* LibyanWholeness.h */,
+				01F92D2C2AC4164C0056C17A /* LibyanWholeness.m */,
+				01F92D3C2AC4164C0056C17A /* MckDefyFuselageCell.h */,
+				01F92D222AC4164C0056C17A /* MckDefyFuselageCell.m */,
+				01F92D322AC4164C0056C17A /* MckHolmiumPulley.h */,
+				01F92D192AC4164C0056C17A /* MckHolmiumPulley.m */,
+				01F92D0B2AC4164C0056C17A /* MckPretenceHawkerCell.h */,
+				01F92D312AC4164C0056C17A /* MckPretenceHawkerCell.m */,
+				01F92D212AC4164C0056C17A /* MothballWilco.h */,
+				01F92D3D2AC4164C0056C17A /* MothballWilco.m */,
+				01F92D262AC4164C0056C17A /* NdrdonHypoxiaGhagraCell.h */,
+				01F92D082AC4164C0056C17A /* NdrdonHypoxiaGhagraCell.m */,
+				01F92D362AC4164C0056C17A /* NionYessirSeptic.h */,
+				01F92D152AC4164C0056C17A /* NionYessirSeptic.m */,
+				01F92D1C2AC4164C0056C17A /* NlavndFormerForthcomCell.h */,
+				01F92D3F2AC4164C0056C17A /* NlavndFormerForthcomCell.m */,
+				01F92D242AC4164C0056C17A /* NlavndSpyglassYearnCell.h */,
+				01F92D0A2AC4164C0056C17A /* NlavndSpyglassYearnCell.m */,
+				01F92D332AC4164C0056C17A /* PrognitorHardwork.h */,
+				01F92D182AC4164C0056C17A /* PrognitorHardwork.m */,
+				01F92D2A2AC4164C0056C17A /* SothastrnWilcoZonView.h */,
+				01F92D042AC4164C0056C17A /* SothastrnWilcoZonView.m */,
+				01F92D1B2AC4164C0056C17A /* TrivialityFixView.h */,
+				01F92D442AC4164C0056C17A /* TrivialityFixView.m */,
+				01F92D0D2AC4164C0056C17A /* TrivialityZonkedDuesView.h */,
+				01F92D2F2AC4164C0056C17A /* TrivialityZonkedDuesView.m */,
+				01F92D3E2AC4164C0056C17A /* VpHypoxiaReprisalCell.h */,
+				01F92D202AC4164C0056C17A /* VpHypoxiaReprisalCell.m */,
+				01F92D062AC4164C0056C17A /* VpSteamedSnatchCell.h */,
+				01F92D282AC4164C0056C17A /* VpSteamedSnatchCell.m */,
+				01F92D412AC4164C0056C17A /* VrIllywhackerSniffleCell.h */,
+				01F92D1E2AC4164C0056C17A /* VrIllywhackerSniffleCell.m */,
+				01F92D0F2AC4164C0056C17A /* VrVasodilationCell.h */,
+				01F92D2D2AC4164C0056C17A /* VrVasodilationCell.m */,
+			);
+			path = Classes;
+			sourceTree = SOURCE_ROOT;
+		};
+		0D707DEB12BE457CDEEDA972 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				4B91A4717907768F645CF1D6 /* Pods-Runner.debug.xcconfig */,
+				E3B35632E4E07D9C40C68999 /* Pods-Runner.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		1F78EFD616C1FFD1C065CF86 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C63EB3FE054FE83593AF7573 /* Pods_Runner.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		012CF2DE2AB2B44D0098BAE3 /* Runner */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 012CF2F82AB2B44F0098BAE3 /* Build configuration list for PBXNativeTarget "Runner" */;
+			buildPhases = (
+				F607D200D32690AAD5749320 /* [CP] Check Pods Manifest.lock */,
+				012CF2DB2AB2B44D0098BAE3 /* Sources */,
+				012CF2DC2AB2B44D0098BAE3 /* Frameworks */,
+				012CF2DD2AB2B44D0098BAE3 /* Resources */,
+				B66FCA484B7CD6201B1A2C2D /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Runner;
+			productName = Runner;
+			productReference = 012CF2DF2AB2B44D0098BAE3 /* Runner.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		012CF2D72AB2B44D0098BAE3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					012CF2DE2AB2B44D0098BAE3 = {
+						CreatedOnToolsVersion = 14.3;
+					};
+				};
+			};
+			buildConfigurationList = 012CF2DA2AB2B44D0098BAE3 /* Build configuration list for PBXProject "Runner" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 012CF2D62AB2B44D0098BAE3;
+			productRefGroup = 012CF2E02AB2B44D0098BAE3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				012CF2DE2AB2B44D0098BAE3 /* Runner */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		012CF2DD2AB2B44D0098BAE3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				012CF2F22AB2B44F0098BAE3 /* LaunchScreen.storyboard in Resources */,
+				012CF2EF2AB2B44F0098BAE3 /* Assets.xcassets in Resources */,
+				012CF2ED2AB2B44D0098BAE3 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		B66FCA484B7CD6201B1A2C2D /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Runner/Pods-Runner-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Runner/Pods-Runner-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Runner/Pods-Runner-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F607D200D32690AAD5749320 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Runner-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		012CF2DB2AB2B44D0098BAE3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				01F92D632AC4164C0056C17A /* NlavndFormerForthcomCell.m in Sources */,
+				01F92D4B2AC4164C0056C17A /* FryHideawayHawkerCell.m in Sources */,
+				01F92D502AC4164C0056C17A /* FryWholenessView.m in Sources */,
+				01F92D602AC4164C0056C17A /* GophrLegalisticDuetView.m in Sources */,
+				01F92D612AC4164C0056C17A /* LayttHouseman.m in Sources */,
+				01F92D5F2AC4164C0056C17A /* FryPretenceGhagra.m in Sources */,
+				012CF2EA2AB2B44D0098BAE3 /* ViewController.m in Sources */,
+				01F92D582AC4164C0056C17A /* LibyanWholeness.m in Sources */,
+				01F92D5D2AC4164C0056C17A /* MckPretenceHawkerCell.m in Sources */,
+				01F92D472AC4164C0056C17A /* BasqConvincFledglView.m in Sources */,
+				01F92D462AC4164C0056C17A /* BasqAgronomistFecalCell.m in Sources */,
+				01F92D512AC4164C0056C17A /* GodhadHolmiumElanView.m in Sources */,
+				01F92D5C2AC4164C0056C17A /* FryRationalityView.m in Sources */,
+				01F92D4E2AC4164C0056C17A /* PrognitorHardwork.m in Sources */,
+				01F92D5B2AC4164C0056C17A /* TrivialityZonkedDuesView.m in Sources */,
+				01F92D4C2AC4164C0056C17A /* GodhadScathQuarterView.m in Sources */,
+				01F92D5A2AC4164C0056C17A /* AirflowHideawayDustyView.m in Sources */,
+				01F92D4F2AC4164C0056C17A /* MckHolmiumPulley.m in Sources */,
+				01F92D452AC4164C0056C17A /* SothastrnWilcoZonView.m in Sources */,
+				01F92D4D2AC4164C0056C17A /* NionYessirSeptic.m in Sources */,
+				01F92D572AC4164C0056C17A /* LibyanDeftDepose.m in Sources */,
+				01F92D532AC4164C0056C17A /* VpHypoxiaReprisalCell.m in Sources */,
+				01F92D562AC4164C0056C17A /* VpSteamedSnatchCell.m in Sources */,
+				012CF2E42AB2B44D0098BAE3 /* AppDelegate.m in Sources */,
+				01F92D4A2AC4164C0056C17A /* BlondExtantInwardly.m in Sources */,
+				01F92D5E2AC4164C0056C17A /* FreForthcomCell.m in Sources */,
+				01F92D642AC4164C0056C17A /* FreAllowanceThunderyView.m in Sources */,
+				01F92D592AC4164C0056C17A /* VrVasodilationCell.m in Sources */,
+				01F92D522AC4164C0056C17A /* VrIllywhackerSniffleCell.m in Sources */,
+				01F92D542AC4164C0056C17A /* MckDefyFuselageCell.m in Sources */,
+				01F92D492AC4164C0056C17A /* NlavndSpyglassYearnCell.m in Sources */,
+				01F92D622AC4164C0056C17A /* MothballWilco.m in Sources */,
+				01F92D482AC4164C0056C17A /* NdrdonHypoxiaGhagraCell.m in Sources */,
+				01F92D652AC4164C0056C17A /* TrivialityFixView.m in Sources */,
+				012CF2F52AB2B44F0098BAE3 /* main.m in Sources */,
+				012CF2E72AB2B44D0098BAE3 /* SceneDelegate.m in Sources */,
+				01F92D552AC4164C0056C17A /* FryAsciiPluckCell.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		012CF2EB2AB2B44D0098BAE3 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				012CF2EC2AB2B44D0098BAE3 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		012CF2F02AB2B44F0098BAE3 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				012CF2F12AB2B44F0098BAE3 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		012CF2F62AB2B44F0098BAE3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		012CF2F72AB2B44F0098BAE3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		012CF2F92AB2B44F0098BAE3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4B91A4717907768F645CF1D6 /* Pods-Runner.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/PrefixHeader.pch";
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Runner/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = WhiteWhaleTech.Runner;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		012CF2FA2AB2B44F0098BAE3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E3B35632E4E07D9C40C68999 /* Pods-Runner.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/PrefixHeader.pch";
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Runner/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = WhiteWhaleTech.Runner;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		012CF2DA2AB2B44D0098BAE3 /* Build configuration list for PBXProject "Runner" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				012CF2F62AB2B44F0098BAE3 /* Debug */,
+				012CF2F72AB2B44F0098BAE3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		012CF2F82AB2B44F0098BAE3 /* Build configuration list for PBXNativeTarget "Runner" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				012CF2F92AB2B44F0098BAE3 /* Debug */,
+				012CF2FA2AB2B44F0098BAE3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 012CF2D72AB2B44D0098BAE3 /* Project object */;
+}
