@@ -58,7 +58,7 @@
     }
 }
 
-- (void)setDataArray:(NSArray *)modeNdustry{
+- (void)setModeNdustry:(NSArray *)modeNdustry{
     _modeNdustry = modeNdustry;
     [self.gidGigaView.arrangedSubviews makeObjectsPerformSelector:@selector(removeFromSuperview)];
     [self.djstParagraphBothArr removeAllObjects];

@@ -16,7 +16,7 @@
 
 @end
 @implementation SothastrnWilcoZonView
-- (void)setDataArray:(NSMutableArray *)modeNdustry{
+- (void)setModeNdustry:(NSMutableArray *)modeNdustry{
     _modeNdustry = modeNdustry;
     dispatch_async(dispatch_get_main_queue(), ^{
         [self setNeedsUpdateConstraints];

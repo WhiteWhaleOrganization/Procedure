@@ -100,7 +100,7 @@
     [self waftRemedyProvable];
 }
 
-- (void)setDataArray:(NSArray *)modeNdustry{
+- (void)setModeNdustry:(NSArray *)modeNdustry{
     _modeNdustry = modeNdustry;
     dispatch_async(dispatch_get_main_queue(), ^{
         [self.tableView reloadData];
